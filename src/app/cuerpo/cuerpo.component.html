@@ -1,0 +1,17 @@
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Recorre el array, y muestra para cada objeto sus 2 atributos -->
+            <tr *ngFor="let Art of ListaArticulos">
+                <td>{{ Art.IdArticuloFamilia }}</td>
+                <td>{{ Art.Nombre }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
